@@ -1,18 +1,19 @@
 import React from 'react'
 import Button from '@material-ui/core'
+import {CardSignosContainer, NomeSigno, PeriodoNascimento} from './styles'
 
 const CardSignos = (props) =>{
     return (
-        <div>
+        <CardSignosContainer>
             <section>
-                <p><strong>{props.signo}</strong></p>
+                <NomeSigno><strong>{props.signo}</strong></NomeSigno>
             </section>
             <img src={props.imagem} alt={props.signo}/>
             <section>
-                <p>{props.dataInicio} - {props.dataFim}</p>
+                <PeriodoNascimento>{props.dataInicio} - {props.dataFim}</PeriodoNascimento>
             </section>
             {/* <Button variant="outlined" color="primary">Ver detalhes</Button> */}
-        </div>
+        </CardSignosContainer>
     )
 }
 
