@@ -1,10 +1,11 @@
 import React from 'react'
+import {HeaderStyled} from './styles'
 
 const Header = () => {
     return (
-        <div>
-            Baralho dos Signos
-        </div>
+        <HeaderStyled>
+            <h1>Baralho dos Signos</h1>
+        </HeaderStyled>
     )
 }
 
