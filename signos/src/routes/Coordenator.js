@@ -7,25 +7,25 @@ export const goToHomePage = () => {
 }
 
 export const goToAquariosPage = () => {
-  history.push("aquarios")
+  history.push("/aquarios")
 }
 
 export const goToAquariosPage = () => {
-  history.push("aquarios")
+  history.push("/aquarios")
 }
 
 export const goToAriesPage = () => {
-  history.push("aries")
+  history.push("/aries")
 }
 
 export const goToCancerPage = () => {
-  history.push("cancer")
+  history.push("/cancer")
 }
 
 export const goToEscorpiaoPage = () => {
-  history.push("escorpiao")
+  history.push("/escorpiao")
 }
 
 export const goToGemeosPage = () => {
-  history.push("gemeos")
+  history.push("/gemeos")
 }
