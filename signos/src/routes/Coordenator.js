@@ -2,55 +2,55 @@ export const goBack = (history) => {
   history.goBack()
 }
 
-export const goToHomePage = () => {
+export const goToHomePage = (history) => {
   history.push("/")
 }
 
-export const goToAquariosPage = () => {
+export const goToAquariosPage = (history) => {
   history.push("/aquarios")
 }
 
-export const goToAriesPage = () => {
+export const goToAriesPage = (history) => {
   history.push("/aries")
 }
 
-export const goToCancerPage = () => {
+export const goToCancerPage = (history) => {
   history.push("/cancer")
 }
 
-export const goToCancerPage = () => {
+export const goToCancerPage = (history) => {
   history.push("/capricornio")
 }
 
-export const goToEscorpiaoPage = () => {
+export const goToEscorpiaoPage = (history) => {
   history.push("/escorpiao")
 }
 
-export const goToGemeosPage = () => {
+export const goToGemeosPage = (history) => {
   history.push("/gemeos")
 }
 
-export const goToLeaoPage = () => {
+export const goToLeaoPage = (history) => {
   history.push("/leao")
 }
 
-export const goToLibraPage = () => {
+export const goToLibraPage = (history) => {
   history.push("/libra")
 }
 
-export const goToPeixesPage = () => {
+export const goToPeixesPage = (history) => {
   history.push("/peixes")
 }
 
-export const goToSargitarioPage = () => {
+export const goToSargitarioPage = (history) => {
   history.push("/sargitario")
 }
 
-export const goToTouroPage = () => {
+export const goToTouroPage = (history) => {
   history.push("/touro")
 }
 
-export const goToVirgemPage = () => {
+export const goToVirgemPage = (history) => {
   history.push("/virgem")
 }
 
