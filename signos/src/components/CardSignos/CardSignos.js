@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Homepage = () =>{
+const CardSignos = () =>{
     return (
         <div>
-            Homepage
+            CardSignos
         </div>
     )
 }
 
-export default Homepage
+export default CardSignos

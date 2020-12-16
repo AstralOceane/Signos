@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Homepage = () =>{
+const AquariosPage = () =>{
     return (
         <div>
-            Homepage
+            Aquarios
         </div>
     )
 }
 
-export default Homepage
+export default AquariosPage
