@@ -1,4 +1,5 @@
 import React from 'react'
+import {HeaderStyled} from './styles'
 
 import { ButtonsContainer } from "./styles";
 
@@ -15,6 +16,7 @@ const Header = () => {
 const history = useHistory()
 
     return (
+
         <ThemeProvider theme={theme}>
             <AppBar className={"appbar"}>
                 <Toolbar>
@@ -29,6 +31,7 @@ const history = useHistory()
                 </Toolbar>
             </AppBar>
       </ThemeProvider>
+
     )
 }
 

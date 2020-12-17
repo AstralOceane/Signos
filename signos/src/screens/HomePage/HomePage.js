@@ -1,5 +1,7 @@
 import React from 'react'
+
 import {useHistory} from 'react-router-dom'
+
 import {HomePageContainer} from './styles'
 import CardSignos from '../../components/CardSignos/CardSignos'
 import Aquario from '../../assets/Aquarius.png'
@@ -14,7 +16,9 @@ import Libra from '../../assets/Libra.png'
 import Escorpiao from '../../assets/Scorpio.png'
 import Sargitario from '../../assets/Sagittarius.png'
 import Capricornio from '../../assets/Capricorn.png'
+
 import {goToAquariosPage, goToPeixesPage, goToAriesPage, goToTouroPage, goToCancerPage, goToLeaoPage, goToVirgemPage, goToLibraPage, goToEscorpiaoPage, goToSargitarioPage, goToCapricornioPage } from '../../routes/Coordenator'
+
 
 const Homepage = () =>{
   const history = useHistory()
@@ -22,6 +26,7 @@ const Homepage = () =>{
         <HomePageContainer>
             <CardSignos
           signo="Aquário" dataInicio="21/01"
+
           dataFim="19/02" imagem={Aquario}
           funcao={() => goToAquariosPage(history)}
           />
@@ -92,6 +97,7 @@ const Homepage = () =>{
           dataFim="20/01" imagem={Capricornio}
           funcao={() =>  goToCapricornioPage(history)}
           />
+
         </HomePageContainer>
     )
 }
