@@ -1,5 +1,7 @@
 import React from 'react'
-import Button from '@material-ui/core'
+
+import {Button} from '@material-ui/core'
+
 import {CardSignosContainer, NomeSigno, PeriodoNascimento} from './styles'
 
 const CardSignos = (props) =>{
@@ -8,11 +10,15 @@ const CardSignos = (props) =>{
             <section>
                 <NomeSigno><strong>{props.signo}</strong></NomeSigno>
             </section>
+
             <img src={props.imagem} alt={props.signo}/>
+
             <section>
                 <PeriodoNascimento>{props.dataInicio} - {props.dataFim}</PeriodoNascimento>
             </section>
-            {/* <Button variant="outlined" color="primary">Ver detalhes</Button> */}
+
+            <Button variant="contained" color="secondary" onClick={props.funcao}>Ver detalhes</Button> 
+
         </CardSignosContainer>
     )
 }

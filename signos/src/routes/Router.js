@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import AquariosPage from '../screens/AquariosPage/AquariosPage'
 import AriesPage from '../screens/AriesPage/AriesPage'
 import CancerPage from '../screens/CancerPage/CancerPage'
@@ -16,7 +16,7 @@ import VirgemPage from '../screens/VirgemPage/VirgemPage'
 
 const Router = () =>{
     return (
-        <BrowserRouter>
+        <React.Fragment>
             <Switch>
                     <Route exact path={"/"} component={HomePage} />
                     <Route exact path={"/aqurios"} component={AquariosPage} />
@@ -32,7 +32,7 @@ const Router = () =>{
                     <Route exact path={"/touro"} component={TouroPage} />
                     <Route exact path={"/virgem"} component={VirgemPage} />
             </Switch>
-        </BrowserRouter>
+        </React.Fragment>
     )
 }
 

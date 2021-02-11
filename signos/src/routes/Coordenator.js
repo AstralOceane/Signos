@@ -18,7 +18,7 @@ export const goToCancerPage = (history) => {
   history.push("/cancer")
 }
 
-export const goToCancerPage = (history) => {
+export const goToCapricornioPage = (history) => {
   history.push("/capricornio")
 }
 
